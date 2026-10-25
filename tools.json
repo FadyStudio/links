@@ -1,0 +1,132 @@
+[
+ {
+  "id": "18092865371009955",
+  "live": "2026-10-26T20:00:00+03:00",
+  "name": "Gem الإعلانات اللي مستحيل حد يتوقعها",
+  "hook": "إزاي تخلي Gemini يكتبلك إعلانات مستحيل حد يتوقعها؟",
+  "kind": "Gemini Gem",
+  "links": [
+   {
+    "label": "افتح الـ Gem",
+    "url": "https://gemini.google.com/gem/1iJvRG4UaHw7DksZ0IIU_HlfS5B8ADaxB?usp=sharing"
+   }
+  ]
+ },
+ {
+  "id": "18067502804253883",
+  "live": "2026-10-27T20:00:00+03:00",
+  "name": "Cultural Deck: جيل تيك توك",
+  "hook": "إزاي جيل كامل بيفكر، وبيتكلم، وبيضحك على إيه",
+  "kind": "Deck",
+  "links": [
+   {
+    "label": "افتح الـ Deck",
+    "url": "https://docs.google.com/presentation/d/1FSmeauK16UKaOeJW1xJU7vAcwHSp77oDs_5Z8pgk1eY/edit?usp=sharing"
+   }
+  ]
+ },
+ {
+  "id": "17854840794611165",
+  "live": "2026-10-28T20:00:00+03:00",
+  "name": "بورتفوليوهات تشتغل بيها مع الكبار",
+  "hook": "عايز تشتغل مع الكبار؟ لازم البورتفوليو بتاعك يبقى شبه دول!",
+  "kind": "موقع",
+  "links": [
+   {
+    "label": "افتح البورتفوليوهات",
+    "url": "https://brandcenter.vcu.edu/student-portfolios/"
+   }
+  ]
+ },
+ {
+  "id": "18079960838617647",
+  "live": "2026-10-29T20:00:00+03:00",
+  "name": "Creative Director Skill لـ Claude",
+  "hook": "إزاي تخلي Claude يفكر زي Creative Director في أكبر الإيجنسيز العالمية؟",
+  "kind": "Claude Skill",
+  "links": [
+   {
+    "label": "افتح الـ Skill",
+    "url": "https://github.com/smixs/creative-director-skill"
+   }
+  ]
+ },
+ {
+  "id": "18131323978575487",
+  "live": "2026-10-30T20:00:00+02:00",
+  "name": "سيستم الكاروسيل بـ Claude",
+  "hook": "السيستم اللي بيحول أي فكرة أو مقال أو فيديو لكاروسيل",
+  "kind": "فايلات + Skills",
+  "links": [
+   {
+    "label": "افتح الفايلات",
+    "url": "https://drive.google.com/drive/folders/1tLni9nDqf8J6lZghO4IZnPCi3-L5vec5?usp=sharing"
+   }
+  ]
+ },
+ {
+  "id": "18051177458695740",
+  "live": "2026-10-31T20:00:00+02:00",
+  "name": "فولدر خطط أنجح الـ Marketers",
+  "hook": "عايز تقرأ دماغ أنجح Marketers في العالم؟ خططهم كلها في فولدر واحد!",
+  "kind": "فولدر",
+  "links": [
+   {
+    "label": "افتح الفولدر",
+    "url": "https://drive.google.com/drive/folders/1IHP7dJR3ipIpr_PPt4aKXcT2yqGlFi3g"
+   }
+  ]
+ },
+ {
+  "id": "18151031485436002",
+  "live": "2026-11-01T20:00:00+02:00",
+  "name": "Skill كونتنت مايبانش إنه AI",
+  "hook": "السر اللي هيخلي الكونتنت بتاعك مايبانش إنه مكتوب بـ AI",
+  "kind": "Skill",
+  "links": [
+   {
+    "label": "افتح الـ Skill",
+    "url": "https://drive.google.com/file/d/1Ru8OMMkLuMBVFyoVZs9JcScAeSUsQCjW/view?usp=sharing"
+   }
+  ]
+ },
+ {
+  "id": "18104612975324217",
+  "live": "2026-11-02T20:00:00+02:00",
+  "name": "Gem الـ Creative Director والـ Big Idea",
+  "hook": "إزاي تخلي Gemini يفكر كأنه Creative Director ويديك الـ Big Idea للكامبين بتاعتك؟",
+  "kind": "Gemini Gem",
+  "links": [
+   {
+    "label": "افتح الـ Gem",
+    "url": "https://gemini.google.com/gem/1zLGp5J2pfH3tiwfTEEoyspm9bBCfKQ5v?usp=sharing"
+   }
+  ]
+ },
+ {
+  "id": "18125558989688857",
+  "live": "2026-11-03T20:00:00+02:00",
+  "name": "Gem الـ Customer Research",
+  "hook": "إزاي تخلي Gemini يعملك Customer Research ويجيبلك أسرار عملائك؟",
+  "kind": "Gemini Gem",
+  "links": [
+   {
+    "label": "افتح الـ Gem",
+    "url": "https://gemini.google.com/gem/1RuXWcZ5NmlwDYre2IIxj_OnmbFqb95zV?usp=sharing"
+   }
+  ]
+ },
+ {
+  "id": "18122408614602562",
+  "live": "2026-11-04T20:00:00+02:00",
+  "name": "Gem إعلانات السوق السعودي",
+  "hook": "إزاي تخلي Gemini يكتبلك إعلانات للسوق السعودي مستحيل حد يفرق بينها وبين ابن البلد؟",
+  "kind": "Gemini Gem",
+  "links": [
+   {
+    "label": "افتح الـ Gem",
+    "url": "https://gemini.google.com/gem/1D6sjHjQUvEGzY-ydDrNJ1eKbP56C3MCO?usp=sharing"
+   }
+  ]
+ }
+]
