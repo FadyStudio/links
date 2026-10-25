@@ -88,7 +88,18 @@
       background: var(--button); color: var(--button-fg);
       font-weight: 600; font-size: 15px; text-decoration: none;
     }
-    .links a:focus-visible { outline: 3px solid var(--focus); outline-offset: 2px; }
+    .links a:focus-visible, .links button:focus-visible { outline: 3px solid var(--focus); outline-offset: 2px; }
+    .links button {
+      display: inline-flex; align-items: center; justify-content: center;
+      min-height: 44px; padding: 10px 18px; border-radius: 10px;
+      background: transparent; color: var(--fg); border: 1px solid var(--line);
+      font: inherit; font-weight: 600; font-size: 15px; cursor: pointer;
+    }
+    .note {
+      margin: -4px 0 12px; padding: 8px 12px; border-radius: 10px;
+      background: color-mix(in srgb, var(--line) 45%, transparent);
+      color: var(--muted); font-size: 14px;
+    }
     .empty { text-align: center; color: var(--muted); padding: 36px 8px; }
     footer { margin-top: 32px; color: var(--muted); font-size: 14px; text-align: center; }
     footer a { color: inherit; }
@@ -162,9 +173,46 @@
         a.rel = "noopener";
         a.textContent = link.label;
         links.append(a);
+        // A tool with a note (a Gem) opens only on a computer, so phone visitors can take the link with them.
+        if (tool.note) links.append(copyButton(link.url));
       }
-      li.append(meta, title, hook, links);
+      li.append(meta, title, hook);
+      if (tool.note) {
+        const note = document.createElement("p");
+        note.className = "note";
+        note.textContent = tool.note;
+        li.append(note);
+      }
+      li.append(links);
       return li;
+    }
+
+    function copyButton(url) {
+      const label = "انسخ اللينك";
+      const button = document.createElement("button");
+      button.type = "button";
+      button.textContent = label;
+      button.addEventListener("click", async () => {
+        let copied = false;
+        try {
+          await navigator.clipboard.writeText(url);
+          copied = true;
+        } catch {
+          // In-app browsers can block the clipboard API; fall back to a selected text box.
+          const box = document.createElement("textarea");
+          box.value = url;
+          box.setAttribute("readonly", "");
+          box.style.position = "fixed";
+          box.style.opacity = "0";
+          document.body.append(box);
+          box.select();
+          copied = document.execCommand("copy");
+          box.remove();
+        }
+        button.textContent = copied ? "اتنسخ ✓" : "اضغط مطوّل على الزرار الأسود وانسخه";
+        setTimeout(() => (button.textContent = label), copied ? 2000 : 5000);
+      });
+      return button;
     }
 
     function render() {
